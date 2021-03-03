@@ -1,0 +1,121 @@
+.jumbotron {
+    height: 320px;
+    background-color: #F9F9F9 !important;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+}
+
+.grup {
+    float: left;
+    color: #283894;
+    margin-left: 50px;
+}
+
+.baslik {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.baslik span {
+    color: #8bc53d;
+}
+
+.yazi {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#SekmeIcerikleri li {
+    padding: 5px;
+    margin-top: 5px;
+    list-style: none;
+    margin-left: -20px;
+}
+
+.mobil {
+    display: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+#SekmeIcerikleri li:hover {
+    background-color: aliceblue;
+}
+
+#m2 .modal-lg {
+    width: 670px !important;
+}
+
+#m3 .modal-xl {
+    width: 900px !important;
+}
+
+
+@media screen and (max-width:991px) {
+    .logo {
+        width: 180px;
+    }
+
+    .header .baslik {
+        margin-top: 25px;
+        font-size: 40px;
+    }
+
+    .header .yazi {
+        font-size: 25px;
+    }
+
+    .jumbotron {
+        height: 300px;
+        background-color: #F9F9F9 !important;
+    }
+
+    .mobil {
+        display:block;
+    }
+    .pc{
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header {
+        text-align: center;
+    }
+
+    .logo {
+        width: 160px;
+        float: none;
+    }
+
+    .grup {
+        float: none;
+        color: #283894;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .header .baslik {
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .header .yazi {
+        font-size: 20px;
+    }
+
+    .jumbotron {
+        height: auto;
+    }
+    .mobil {
+        display:block;
+    }
+    
+}
